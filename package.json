@@ -1,0 +1,11 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "modules/*"
+  ],
+  "scripts": {
+    "web": "yarn workspace @xyz/web"
+  }
+}
